@@ -88,7 +88,7 @@ MonoBehaviour:
   - {fileID: -6686685538133024511}
   StringsBanks:
   - {fileID: 5517681081991135090}
-  cacheTime: 638711406530679446
+  cacheTime: 638711691687172744
   cacheVersion: 131622
 --- !u!114 &515629411471716406
 MonoBehaviour:
@@ -105,10 +105,10 @@ MonoBehaviour:
   Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638711406530155830
+  lastModified: 638711691687172744
   FileSizes:
   - Name: Desktop
-    Value: 1046
+    Value: 3589536
   Exists: 1
 --- !u!114 &3181481988246733989
 MonoBehaviour:
@@ -231,10 +231,10 @@ MonoBehaviour:
     Data4: -125752603
   Banks:
   - {fileID: 515629411471716406}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 180158
