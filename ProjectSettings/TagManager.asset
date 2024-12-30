@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Folder/Documents
+  - Folder/Picture
+  - Folder/Video
+  - Folder/Audio
+  - Folder/Other
+  - File/TextLog
+  - File/TextLogContent
+  - Images/test
+  - UI/Notepad
+  - UI/Terminal
   layers:
   - Default
   - TransparentFX
@@ -40,6 +50,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Windows
+    uniqueID: 1452471757
+    locked: 0
+  - name: Hidden
+    uniqueID: 2616223813
     locked: 0
   m_RenderingLayers:
   - Default
