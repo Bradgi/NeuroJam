@@ -10,12 +10,22 @@ public class CloseUI : MonoBehaviour
             GameObject.FindGameObjectWithTag("UI/Notepad").SetActive(false);
         }
     }
+
     public void CloseTerminal()
     {
         if (GameManager.Instance.terminalOpen)
         {
             GameManager.Instance.terminalOpen = false;
             GameObject.FindGameObjectWithTag("UI/Terminal").SetActive(false);
+        }
+    }
+
+    public void CloseErrorLog()
+    {
+        if (GameManager.Instance.errorLogOpen)
+        {
+            GameManager.Instance.errorLogOpen = false;
+            GameObject.FindGameObjectWithTag("UI/ErrorNotepad").SetActive(false);
         }
     }
 }

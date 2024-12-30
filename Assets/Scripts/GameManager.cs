@@ -7,8 +7,10 @@ public class GameManager : MonoBehaviour
     public bool folderOpen = false;
     public bool documentsOpen = false;
     public bool picturesOpen = false;
+    public bool outputOpen = false;
     public bool otherOpen = false;
     public bool textMessagesOpen = false;
+    public bool errorLogOpen = false;
     public bool imageViewerOpen = false;
     public bool terminalOpen = false;
     public string currentlyOpenImage = "";
