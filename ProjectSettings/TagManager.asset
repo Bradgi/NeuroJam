@@ -24,6 +24,8 @@ TagManager:
   - Images/23
   - Images/31
   - Images/32
+  - Folder/Output
+  - UI/MessagesNotepad
   layers:
   - Default
   - TransparentFX

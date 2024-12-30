@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public bool errorLogOpen = false;
     public bool imageViewerOpen = false;
     public bool terminalOpen = false;
+    public int currentStage = 0;
     public string currentlyOpenImage = "";
 
     void Awake()

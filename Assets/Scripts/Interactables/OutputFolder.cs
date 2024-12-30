@@ -6,6 +6,7 @@ public class OutputFolder : MonoBehaviour
     {
         if (!GameManager.Instance.outputOpen)
         {
+            GameManager.Instance.folderOpen = true;
             GameManager.Instance.outputOpen = true;
 
             GameObject.FindGameObjectWithTag("Folder/Output").transform.position = new Vector3(1.90999997f,2.29999995f,0);

@@ -7,7 +7,7 @@ public class CloseUI : MonoBehaviour
         if (GameManager.Instance.textMessagesOpen)
         {
             GameManager.Instance.textMessagesOpen = false;
-            GameObject.FindGameObjectWithTag("UI/Notepad").SetActive(false);
+            GameObject.FindGameObjectWithTag("UI/MessagesNotepad").SetActive(false);
         }
     }
 
