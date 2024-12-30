@@ -14,6 +14,16 @@ TagManager:
   - Images/test
   - UI/Notepad
   - UI/Terminal
+  - UI/ErrorNotepad
+  - Images/11
+  - Images/12
+  - Images/13
+  - Images/14
+  - Images/21
+  - Images/22
+  - Images/23
+  - Images/31
+  - Images/32
   layers:
   - Default
   - TransparentFX
