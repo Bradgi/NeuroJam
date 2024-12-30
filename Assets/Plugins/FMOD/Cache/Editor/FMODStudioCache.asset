@@ -15,12 +15,12 @@ MonoBehaviour:
   Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638710942790106062
+  lastModified: 638711406530315391
   FileSizes:
   - Name: Desktop
     Value: 1036
   Exists: 1
---- !u!114 &-2287728136831595823
+--- !u!114 &-5745676769832565752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,12 +30,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Test.bank
+  m_Name: bank:/SFX.bank
   m_EditorClassIdentifier: 
-  Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/Test.bank
-  Name: Test
-  StudioPath: bank:/Test
-  lastModified: 638710942790205797
+  Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638711406530679446
+  FileSizes:
+  - Name: Desktop
+    Value: 702592
+  Exists: 1
+--- !u!114 &-802557945811442948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638711406530407762
   FileSizes:
   - Name: Desktop
     Value: 1046
@@ -55,16 +75,122 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 5517681081991135090}
   - {fileID: -6686685538133024511}
-  - {fileID: -2287728136831595823}
+  - {fileID: 515629411471716406}
+  - {fileID: -802557945811442948}
+  - {fileID: -5745676769832565752}
   EditorEvents:
-  - {fileID: 7727793904928925294}
+  - {fileID: 5781373739800520036}
+  - {fileID: 3935989632292315471}
+  - {fileID: 4898917410225001945}
+  - {fileID: 3181481988246733989}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6686685538133024511}
   StringsBanks:
   - {fileID: 5517681081991135090}
-  cacheTime: 638710942790205797
+  cacheTime: 638711406530679446
   cacheVersion: 131622
+--- !u!114 &515629411471716406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638711406530155830
+  FileSizes:
+  - Name: Desktop
+    Value: 1046
+  Exists: 1
+--- !u!114 &3181481988246733989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Keyboard
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Keyboard
+  Guid:
+    Data1: -357069622
+    Data2: 1201522309
+    Data3: 672258210
+    Data4: 1655466728
+  Banks:
+  - {fileID: -5745676769832565752}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 197
+--- !u!114 &3935989632292315471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  Guid:
+    Data1: 37624762
+    Data2: 1166815528
+    Data3: 1315856820
+    Data4: 1348157713
+  Banks:
+  - {fileID: -802557945811442948}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4898917410225001945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Mouse
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Mouse
+  Guid:
+    Data1: -297640067
+    Data2: 1300581903
+    Data3: -1882454350
+    Data4: -1741111616
+  Banks:
+  - {fileID: -5745676769832565752}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 220
 --- !u!114 &5517681081991135090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,12 +206,12 @@ MonoBehaviour:
   Path: ../../FMOD/NeuroJamFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638710942790126008
+  lastModified: 638711406530335283
   FileSizes:
   - Name: Desktop
-    Value: 800
+    Value: 1044
   Exists: 1
---- !u!114 &7727793904928925294
+--- !u!114 &5781373739800520036
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,16 +221,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/test
+  m_Name: event:/Ambience/Ambience
   m_EditorClassIdentifier: 
-  Path: event:/test
+  Path: event:/Ambience/Ambience
   Guid:
-    Data1: -357069622
-    Data2: 1201522309
-    Data3: 672258210
-    Data4: 1655466728
+    Data1: 969884497
+    Data2: 1093016434
+    Data3: -1633979467
+    Data4: -125752603
   Banks:
-  - {fileID: -2287728136831595823}
+  - {fileID: 515629411471716406}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
