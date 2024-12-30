@@ -89,6 +89,10 @@ public class TerminalInput : MonoBehaviour
                 // Put scary song here
             }
         }
+        else if (GameManager.Instance.currentStage == 7)
+        {
+            Application.Quit();
+        }
 
         input.text = "";
     }
